@@ -14,3 +14,11 @@ collections:
   team:
     output: true
     site_navigation: main
+
+   footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/"
+  # Pour enlever le "Powered by Jekyll & Minimal Mistakes" :
+  disable_thanks: true 
