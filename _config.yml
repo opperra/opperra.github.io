@@ -1,0 +1,31 @@
+title: "Global Synergie & Co"
+minimal_mistakes_skin: "air" # Thème clair et pro (tu pourras changer pour "dark" ou "contrast" plus tard)
+description: "L'Humain n'est qu'une variable. Optimisons-la."
+url: "https://global-synergie-co.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Configuration des dossiers
+collections:
+  services:
+    output: true
+    permalink: /services/:name/
+  team:
+    output: true
+    permalink: /team/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "single"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "single"
