@@ -24,3 +24,7 @@ feature_row:
 La **SOCOVAP** intervient auprès des organisations pour transformer chaque composante opérationnelle en vecteur de rentabilité. 
 
 {% include feature_row %}
+<style>
+  .page__footer-follow, .page__footer-copyright + p { display: none; }
+  footer.page__footer p:last-child { display: none; }
+</style>
