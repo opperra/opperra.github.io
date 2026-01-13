@@ -5,9 +5,6 @@ header:
   overlay_filter: 0.6
   caption: "SOCOVAP"
 excerpt: "L'Humain n'est qu'une variable. Optimisons-la."
-actions:
-  - label: "Découvrir nos solutions"
-    url: "/services/"
 ---
 
 ## Bienvenue au siège de la SOCOVAP
