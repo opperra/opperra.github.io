@@ -1,13 +1,14 @@
 ---
 layout: splash
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/header-bg.jpg # On pourra ajouter une image plus tard
+  overlay_color: "#333"
 excerpt: "L'Humain n'est qu'une variable. Optimisons-la."
 ---
 
-## Expertise & Conseil
-Bienvenue chez Global Synergie & Co. Nous intervenons sur les variables critiques de votre business pour maximiser vos résultats.
+## Bienvenue chez Global Synergie & Co
+Nous transformons la complexité en performance. 
 
-[Voir nos services](/services/){: .btn .btn--primary .btn--large}
+### Notre Vision
+Dans un monde de données, l'humain reste le levier principal. Nous ne nous contentons pas de gérer, nous optimisons.
+
+[Contactez-nous](/contact/){: .btn .btn--primary .btn--large}
