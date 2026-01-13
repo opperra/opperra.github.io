@@ -25,19 +25,20 @@ La **SOCOVAP** intervient auprès des organisations pour transformer chaque comp
 
 {% include feature_row %}
 
-<style>
-  /* On cache tout le paragraphe de crédits */
+style>
+  /* On cible le paragraphe du bas et on cache tout ce qui suit le premier élément */
   .page__footer-copyright {
-    visibility: hidden;
-  }
-  
-  /* On fait réapparaître uniquement ton copyright SOCOVAP */
-  .page__footer-copyright::first-line {
-    visibility: visible;
+    display: block;
   }
 
-  /* On supprime l'espace vide que le texte caché pourrait laisser */
+  /* On identifie les nœuds de texte orphelins (le "Powered by") et on les réduit à néant */
   footer.page__footer p:last-child {
-    margin-top: -1.5rem;
+    font-size: 0;
+  }
+
+  /* On redonne sa taille normale uniquement au copyright SOCOVAP */
+  footer.page__footer p:last-child > *:first-child,
+  .page__footer-copyright {
+    font-size: 0.8rem; /* Taille standard du footer */
   }
 </style>
